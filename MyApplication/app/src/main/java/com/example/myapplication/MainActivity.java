@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
                     {
                         String username = userdata.getJSONObject("data").getString("user_nombre");
                         //txtestado.setText("✅ Bienvenido, " + username + "!");
-                        Dialog.msgbox(MainActivity.this,"Exito","Bienvenido "+username,R.drawable.ok);
+                        //Dialog.msgbox(MainActivity.this,"Exito","Bienvenido "+username,R.drawable.ok);
                         Config.usuario=usuario;
                         //navegarPral();
                         Log.e("LOGIN EXITOSO",usuario);
