@@ -1,8 +1,7 @@
 <?php
 header("Content-Type: application/json; charset=UTF-8");
-header("Access-Control-Allow-Origin: *"); // Solo en desarrollo; en producción, restringe a tu dominio
+header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: POST");
-header("Access-Control-Allow-Headers: Content-Type");
 
 include("conexion.php");
 
